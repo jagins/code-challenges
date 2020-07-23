@@ -1,4 +1,4 @@
-def reverse(self, x: int) -> int:
+def reverse(x: int) -> int:
     reverse_string = [i for i in str(x)]
         
     if reverse_string[0] == '-':

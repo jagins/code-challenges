@@ -1,4 +1,4 @@
-def lengthOfLongestSubstring(self, s: str) -> int:
+def lengthOfLongestSubstring(s: str) -> int:
     used = {} #stores chars being used
     longest = 0 #length of the longest substring
     start_index = 0 #starting index of the current substring

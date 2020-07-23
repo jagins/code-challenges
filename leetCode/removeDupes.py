@@ -1,4 +1,4 @@
-def removeDuplicates(self, nums: List[int]) -> int:
+def removeDuplicates(nums: List[int]) -> int:
     #check to see if the length of the array is 0 and return 0 if it is
     if len(nums) == 0:
         return 0
