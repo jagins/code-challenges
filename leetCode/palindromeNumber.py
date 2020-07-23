@@ -1,4 +1,4 @@
-def isPalindrome(self, x: int) -> bool:
+def isPalindrome(x: int) -> bool:
     #convert x into an array of strings
     string = [i for i in str(x)]
     #revrse the string to compare to

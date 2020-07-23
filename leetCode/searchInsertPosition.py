@@ -1,4 +1,4 @@
-def searchInsert(self, nums: List[int], target: int) -> int:
+def searchInsert(nums: List[int], target: int) -> int:
     length = len(nums)
     for i in range(length):
         if nums[i] >= target:
